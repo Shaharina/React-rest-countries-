@@ -4,7 +4,9 @@ import Countries from './Components/Countries/Countries';
 function App() {
     return (
         <div className='App'>
-            <h1>Hello World</h1>
+            <div className='background'>
+                <h1 className='header'>REACT R E S T COUNTRIES</h1>
+            </div>
             <Countries></Countries>
         </div>
     );

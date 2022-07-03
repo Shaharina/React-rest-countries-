@@ -6,6 +6,11 @@
     height: 40vmin;
     pointer-events: none;
 }
+.header {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
