@@ -1,5 +1,6 @@
 import './App.css';
 import Countries from './Components/Countries/Countries';
+import Footer from './Components/Footer/Footer';
 
 function App() {
     return (
@@ -8,6 +9,7 @@ function App() {
                 <h1 className='header'>REACT R E S T COUNTRIES</h1>
             </div>
             <Countries></Countries>
+            <Footer></Footer>
         </div>
     );
 }
